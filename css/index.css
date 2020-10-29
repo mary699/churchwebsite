@@ -510,58 +510,58 @@ label{
     height: 90vh;
     display: flex;
 }
-.sermon-bottom-ourchurch{
+.sermon-bottom-living{
 
     flex: 2;
     margin: 0px 10px;
     box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
 }
-.sermon-bottom-history{
+.sermon-bottom-save{
 
     flex: 2;
     margin: 0px 30px;
     box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
 }
-.sermon-bottom-sermons{
+.sermon-bottom-christ{
     flex: 2;
     margin: 0px 10px;
     box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
 }
-.ourchurchimg{
+.livingimg{
     height: 40vh;
     border-radius: 10px;
 }
-.ourchurchtext{
+.livingtext{
     height: 35vh;
   margin-top: 10px;
 }
-.ourhistoryimg{
+.saveimg{
     height: 40vh;
     border-radius: 10px;
 }
-.ourhistorytext{
+.savetext{
     height: 35vh;
     margin-top: 10px;
 }
 
-.oursermonsimg{
+.christimg{
     height: 40vh;
     border-radius: 10px;
 }
 
-.oursermonstext{
+.christtext{
     height: 35vh;
     margin-top: 10px;
 }
 
-.sermon-bottom h1{
+/* .sermon-bottom h1{
     font-size: 20px;
 }
 .sermon-bottom h1:hover{
     color: blue;
     transition-delay:1s ;
   
-}
+} */
 
 
 
@@ -1036,7 +1036,7 @@ margin: 0px;
     /* border: 2px solid green; */
     display: block;
 }
-.sermon-bottom-ourchurch{
+.sermon-bottom-living{
     /* border: 2px solid black; */
     width: 80%;
     display: block;
@@ -1045,7 +1045,7 @@ margin: 0px;
     margin: 40px 20px 0px 20px;
    
     }
-.sermon-bottom-history{
+.sermon-bottom-save{
         /* border:  1px solid black; */
         width: 80%;
         display: block;
@@ -1053,43 +1053,43 @@ margin: 0px;
        flex: none;
        margin: 90px 20px 0px 20px;
 }
- .sermon-bottom-sermons{
+ .sermon-bottom-christ{
         /* border: 1px solid black; */
         width: 80%;
         box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
         flex: none;
         margin: 90px 20px 0px 20px;
 }
-.ourchurchimg{
+.livingimg{
     border: 2px solid red;
     border-radius: 10px;
     display: block;
     }
-    .ourchurchtext{
+    .livingtext{
         /* border: 2px solid blue; */
      height: 35vh;
       width: 100%;
       display: block;
     }
 
-    .ourhistoryimg{
+    .saveimg{
         border: 2px solid red;
         display: block;
         border-radius: 10px;
     }
-    .ourhistorytext{
+    .savetext{
         /* border: 2px solid blue; */
         height: 35vh;
       margin-top: 10px;
     }
     
-    .oursermonsimg{
+    .christimg{
         border: 2px solid red;
         display: block;
         border-radius: 10px;
     }
     
-    .oursermonstext{
+    .christtext{
         /* border: 2px solid blue; */
         height: 35vh;
       margin-top: 10px;
