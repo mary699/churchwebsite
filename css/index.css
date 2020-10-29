@@ -483,6 +483,85 @@ label{
 
 /* -------------SERMON--------- */
 
+.sermon{
+    height: 120vh;
+}
+.sermon-main{
+    height: 110vh;
+    margin: 30px 40px;
+
+}
+.sermon-top{
+    height: 20vh;
+    margin-top: 10px;
+    text-align: center;
+}
+.sermon-top h1{
+    padding-bottom: 10px;
+}
+.sermon-top p{
+    line-height: 1.5rem;
+    color: lightslategray;
+    font-size: 13px;
+ 
+}
+.sermon-bottom{
+
+    height: 90vh;
+    display: flex;
+}
+.sermon-bottom-ourchurch{
+
+    flex: 2;
+    margin: 0px 10px;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+}
+.sermon-bottom-history{
+
+    flex: 2;
+    margin: 0px 30px;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+}
+.sermon-bottom-sermons{
+    flex: 2;
+    margin: 0px 10px;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+}
+.ourchurchimg{
+    height: 40vh;
+    border-radius: 10px;
+}
+.ourchurchtext{
+    height: 35vh;
+  margin-top: 10px;
+}
+.ourhistoryimg{
+    height: 40vh;
+    border-radius: 10px;
+}
+.ourhistorytext{
+    height: 35vh;
+    margin-top: 10px;
+}
+
+.oursermonsimg{
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.oursermonstext{
+    height: 35vh;
+    margin-top: 10px;
+}
+
+.sermon-bottom h1{
+    font-size: 20px;
+}
+.sermon-bottom h1:hover{
+    color: blue;
+    transition-delay:1s ;
+  
+}
 
 
 
@@ -922,6 +1001,113 @@ margin: 0px;
 /* -----------PLACE  ENDS HERE------------------*/
 
 /* -------------SERMON--------- */
+.sermon{
+
+    /* border: 2px solid red; */
+    width: 100%;
+    position: relative;
+    top: 330px;
+    flex: none;
+
+}
+.sermon-main{
+ 
+ margin: 0px;
+    flex: none;
+
+}
+
+.sermon-top{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    text-align: center;
+}
+.sermon-top h1{
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.sermon-top p{
+    line-height: 1.5rem;
+    color: lightslategray;
+    font-size: 13px;
+ 
+}
+.sermon-bottom{
+    /* border: 2px solid green; */
+    display: block;
+}
+.sermon-bottom-ourchurch{
+    /* border: 2px solid black; */
+    width: 80%;
+    display: block;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+    flex: none;
+    margin: 40px 20px 0px 20px;
+   
+    }
+.sermon-bottom-history{
+        /* border:  1px solid black; */
+        width: 80%;
+        display: block;
+        box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+       flex: none;
+       margin: 90px 20px 0px 20px;
+}
+ .sermon-bottom-sermons{
+        /* border: 1px solid black; */
+        width: 80%;
+        box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+        flex: none;
+        margin: 90px 20px 0px 20px;
+}
+.ourchurchimg{
+    border: 2px solid red;
+    border-radius: 10px;
+    display: block;
+    }
+    .ourchurchtext{
+        /* border: 2px solid blue; */
+     height: 35vh;
+      width: 100%;
+      display: block;
+    }
+
+    .ourhistoryimg{
+        border: 2px solid red;
+        display: block;
+        border-radius: 10px;
+    }
+    .ourhistorytext{
+        /* border: 2px solid blue; */
+        height: 35vh;
+      margin-top: 10px;
+    }
+    
+    .oursermonsimg{
+        border: 2px solid red;
+        display: block;
+        border-radius: 10px;
+    }
+    
+    .oursermonstext{
+        /* border: 2px solid blue; */
+        height: 35vh;
+      margin-top: 10px;
+    }
+
+
+
+    .sermon-bottom h1{
+        font-size: 16px;
+    }
+    .sermon-bottom h1:hover{
+        color: blue;
+        transition-delay:1s ;
+      
+    }
+    
+    
+  
 
 
 
