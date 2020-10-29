@@ -605,9 +605,32 @@ padding-top: 20px;
     border-right: none;
     padding: 20px 0px;
 }
+.from{
+    display: flex;
+    border: 2px solid green;
+    height: 6vh;
+}
 
+.category{
+    display: flex;
+    border: 2px solid red;
+    height: 6vh;
+}
+.time{
+    display: flex;
+    border: 2px solid blue;
+    height: 6vh;
+}
+.picture{
+    border: 2px solid red;
+    width: 15%;
+}
 
-
+.picturetext{
+    border: 2px solid blue;
+    width: 80%;
+    /* margin-left: 10px; */
+}
 
 
 /* -------------SERMON ENDS HERE--------- */
