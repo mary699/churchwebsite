@@ -578,6 +578,7 @@ label{
 }
 .icon{
 border: 2px solid red;
+padding-top: 20px;
 
 }
 .icon svg{
@@ -587,9 +588,12 @@ border: 2px solid red;
 
 .sermon-bottom h1{
     font-size: 16px;
-    border: 2px solid red;
+    border: 1px solid rgba(163, 161, 161, 0.652);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px 0px;
 }
-
 
 
 
