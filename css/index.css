@@ -531,6 +531,7 @@ label{
     height: 40vh;
     border-radius: 10px;
 }
+
 .livingtext{
     height: 35vh;
   margin-top: 10px;
@@ -552,6 +553,28 @@ label{
 .christtext{
     height: 35vh;
     margin-top: 10px;
+}
+.calender{
+    width: 25%;
+    height: 60px;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+    text-align: center;
+   color: black;
+   background-color: white;
+    position: relative;
+    left: 20px;
+    top: -55px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.calender:hover{
+    position: relative;
+    left: 20px;
+    top: -85px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
 }
 
 /* .sermon-bottom h1{
