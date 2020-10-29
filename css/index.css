@@ -576,15 +576,20 @@ label{
     color: white;
     cursor: pointer;
 }
+.icon{
+border: 2px solid red;
 
-/* .sermon-bottom h1{
-    font-size: 20px;
 }
-.sermon-bottom h1:hover{
-    color: blue;
-    transition-delay:1s ;
-  
-} */
+.icon svg{
+    width: 16px;
+    margin-right: 10px;
+}
+
+.sermon-bottom h1{
+    font-size: 16px;
+    border: 2px solid red;
+}
+
 
 
 
