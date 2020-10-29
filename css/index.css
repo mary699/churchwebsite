@@ -436,7 +436,6 @@ label{
     text-align: center;
     color: white;
     font-weight: bolder;
-    border: 2px solid red;
 
 }
 @keyframes slide{
@@ -577,7 +576,6 @@ label{
     cursor: pointer;
 }
 .icon{
-border: 2px solid red;
 padding-top: 20px;
 
 }
@@ -607,29 +605,33 @@ padding-top: 20px;
 }
 .from{
     display: flex;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 6vh;
 }
 
 .category{
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 6vh;
 }
 .time{
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 6vh;
 }
 .picture{
-    border: 2px solid red;
-    width: 15%;
+    /* border: 2px solid red; */
+    width: 10%;
+}
+.picture svg{
+    width: 15px;
 }
 
 .picturetext{
-    border: 2px solid blue;
     width: 82%;
-    /* margin-left: 10px; */
+    font-size: 14px;
+    color: grey;
+    font-weight: lighter;
 }
 
 
@@ -866,7 +868,7 @@ margin: 0px;
         margin: 90px 20px 0px 20px;
 }
 .ourchurchimg{
-    border: 2px solid red;
+
     border-radius: 10px;
     display: block;
     }
@@ -878,7 +880,7 @@ margin: 0px;
     }
 
     .ourhistoryimg{
-        border: 2px solid red;
+      
         display: block;
         border-radius: 10px;
     }
@@ -889,7 +891,7 @@ margin: 0px;
     }
     
     .oursermonsimg{
-        border: 2px solid red;
+        
         display: block;
         border-radius: 10px;
     }
@@ -975,7 +977,7 @@ margin: 0px;
     position: relative;
     text-align: center;
     letter-spacing: 5px;
-    border: 2px solid red;
+
 
 }
 .place-principal h1{
@@ -1019,7 +1021,6 @@ margin: 0px;
     text-align: center;
     color: white;
     font-weight: bolder;
-    border: 2px solid red;
     width: 100%;
 
 }
@@ -1127,7 +1128,7 @@ margin: 0px;
         margin: 90px 20px 0px 20px;
 }
 .livingimg{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 10px;
     display: block;
     }
@@ -1139,7 +1140,7 @@ margin: 0px;
     }
 
     .saveimg{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: block;
         border-radius: 10px;
     }
@@ -1150,7 +1151,7 @@ margin: 0px;
     }
     
     .christimg{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: block;
         border-radius: 10px;
     }
@@ -1195,7 +1196,7 @@ margin: 0px;
         cursor: pointer;
     }
     .icon{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-top: 20px;
     
     }
