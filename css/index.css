@@ -1,0 +1,932 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+width: 100%;
+
+}
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* TOP BAR */
+.topbar{
+    /* border: 2px solid red; */
+    height: 45px;
+    background-color: rgba(211, 211, 211, 0.419);
+    display: flex;
+}
+.topbar img{
+    width: 15px;
+    padding-top: 10px;
+}
+.topbar svg{
+    width: 25px;
+    padding-top: 10px;
+}
+.topbar p{
+    font-size: 10px;
+    padding-top: 9px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ .email{
+   padding-top: 950px;
+    font-size: 10px;
+    text-decoration: none;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  
+}
+/* topbar left */
+.topbar-left{
+    /* border: 2px solid blue; */
+    height: 35px;
+    flex: 3;
+    margin-top: 3px;
+    display: flex;
+    
+}
+
+.topbar-left-one{
+    width: 45%;
+    margin-left: 35px;
+    display: flex;
+}
+
+.topbar-left-one-clock{
+    width: 10%;
+}
+
+.topbar-left-one-clocktext{
+        width:75%;
+}
+
+.topbar-left-two{
+    width:45%;
+    display: flex;
+}
+
+.topbar-left-two-social{
+    width: 70%;
+}
+
+.topbar-left-two-socialtext{
+    width: 10%;
+}
+
+
+/* topbar right */
+.topbar-right{
+    height: 35px;
+    flex: 3;
+    margin-top: 3px;
+    display: flex;
+}
+.topbar-right-one{
+    width: 45%;
+    margin-left: 50px;
+    display: flex;
+}
+.topbar-right-one-email{
+    width: 12%;
+}
+.topbar-right-one-emailcontact{
+    width: 85%;
+}
+
+.topbar-right-two{
+    width:45%;
+    display: flex;
+   
+}
+.topbar-right-two-phone{
+    width: 15%;
+}
+.topbar-right-two-phoneno{
+    width:75%;
+}
+
+
+
+/* TOP BAR  ENDS HERE*/
+
+
+/* ----------NAVIGATION */
+.nav{
+    border-bottom: 1px solid blue;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+
+}
+.logo{
+   
+    float: left;
+    margin: 0px 0px 0px 30px;
+
+}
+.logo img{
+    width: 50px;
+    height: 55px;
+    margin-top: 10px;
+}
+.menu{
+    margin: 0 100px 0 0;
+ 
+  
+
+}
+.menu a{
+    text-decoration: none;
+    color: blue;
+    margin: 0 10px;
+    line-height: 70px;
+    clear: right;
+    
+}
+
+.menu a:hover{
+    color: red;
+}
+span{
+    color: red;
+}
+span:hover{
+    color: blue;
+}
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle{
+    display: none;
+}
+/* ----------NAVIGATION   ENDS HERE*/
+
+
+
+/* BANNER SLIDER */
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 30s infinite;
+}
+.load{
+    animation: slide 2s;
+}
+.content{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.principal{
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+.principal h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.principal span{
+    color: blue;
+    font-size: 90px;
+}
+.principal p{
+    font-size: 20px;
+
+}
+@keyframes slide{
+
+0%{
+    background-image: url("../images/image1.jpg");
+}
+
+20%{
+    background-image: url("../images/image1.png");
+}
+20.01%{
+    background-image: url("../images/image2.png");
+}
+
+40%{
+    background-image: url("../images/image2.png");
+}
+40.01%{
+    background-image: url("../images/image3.png");
+}
+
+60%{
+    background-image: url("../images/image3.png");
+}
+60.01%{
+    background-image: url("../images/image4.png");
+}
+
+80%{
+    background-image: url("../images/image4.png");
+}
+80.01%{
+    background-image: url("../images/image5.png");
+}
+
+100%{
+    background-image: url("../images/image5.png");
+}
+
+}
+
+/* *************BANNER  ENDS HERE*/
+/* ************WELCOME SECTION */
+.welcome{
+    height: 120vh;
+}
+.welcome-main{
+    height: 110vh;
+    margin: 30px 40px;
+
+}
+.welcome-top{
+    height: 20vh;
+    margin-top: 10px;
+    text-align: center;
+}
+.welcome-top h1{
+    padding-bottom: 10px;
+}
+.welcome-top p{
+    line-height: 1.5rem;
+    color: lightslategray;
+    font-size: 13px;
+ 
+}
+.welcome-bottom{
+
+    height: 90vh;
+    display: flex;
+}
+.welcome-bottom-ourchurch{
+
+    flex: 2;
+    margin: 0px 10px;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+}
+.welcome-bottom-history{
+
+    flex: 2;
+    margin: 0px 30px;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+}
+.welcome-bottom-sermons{
+    flex: 2;
+    margin: 0px 10px;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+}
+.ourchurchimg{
+    height: 40vh;
+    border-radius: 10px;
+}
+.ourchurchtext{
+    height: 35vh;
+  margin-top: 10px;
+}
+.ourhistoryimg{
+    height: 40vh;
+    border-radius: 10px;
+}
+.ourhistorytext{
+    height: 35vh;
+    margin-top: 10px;
+}
+
+.oursermonsimg{
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.oursermonstext{
+    height: 35vh;
+    margin-top: 10px;
+}
+
+.welcome-bottom h1{
+    font-size: 20px;
+}
+.welcome-bottom h1:hover{
+    color: blue;
+    transition-delay:1s ;
+  
+}
+
+.welcome-bottom p{
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1.2rem;
+    padding-top: 10px;
+    color: grey;
+}
+.welcome-bottom a{
+  text-decoration: none;
+ }
+  .welcome-bottom button{
+   width: 80px;
+   padding:6px 0px;
+   margin-top: 10px;
+   font-size: 12px;
+   background-color: white;
+   color: blue;
+   transition-delay:1s ;
+   cursor: pointer;
+   border: none;
+   outline: none;
+  }       
+.welcome-bottom button:hover{
+   width: 80px;
+   padding:6px 0px;
+   font-size: 12px;
+   color: white;
+   background-color: blue;
+   border: none;
+   outline: none;
+  }    
+
+/* ************WELCOME SECTION ENDS HERE*/
+
+/* -----------PLACE ------------------*/
+
+
+.place-slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    animation: slide 30s infinite;
+}
+.place-load{
+    animation: slide 2s;
+}
+.place-content{
+    color: red;
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.place-principal{
+    left: 50%;
+    top: 280%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+.place-principal h1{
+    font-size: 10px;
+    margin-bottom: 20px;
+    color: red;
+}
+.place-principal button{
+    color: blue;
+    font-size: 12px;
+    background-color: white;
+    color: red;
+    width: 150px;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.place-principal button:hover{
+    color: white;
+    font-size: 12px;
+    background-color: red;
+    width: 150px;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.place-principal p{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+.place-principal h4{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid red;
+
+}
+@keyframes slide{
+
+0%{
+    background-image: url("../images/image3.jpg");
+}
+
+20%{
+    background-image: url("../images/image3.png");
+}
+20.01%{
+    background-image: url("../images/image3.png");
+}
+
+40%{
+    background-image: url("../images/image.3png");
+}
+40.01%{
+    background-image: url("../images/image3.png");
+}
+
+60%{
+    background-image: url("../images/image3.png");
+}
+60.01%{
+    background-image: url("../images/image3.png");
+}
+
+80%{
+    background-image: url("../images/image3.png");
+}
+80.01%{
+    background-image: url("../images/image3.png");
+}
+
+100%{
+    background-image: url("../images/image3.png");
+}
+
+}
+
+/* -----------PLACE  ENDS HERE------------------*/
+
+/* -------------SERMON--------- */
+
+
+
+
+
+
+/* -------------SERMON ENDS HERE--------- */
+
+
+
+
+/*-------- MEDIA QUERY ----------*/
+@media (max-width: 600px){
+
+.topbar{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+
+.topbar-left{
+/* border: 4px solid blue; */
+margin: 0px;
+}
+.topbar-left-one{
+    /* border: 2px solid peru; */
+    margin: 0px;
+    width: 30%;
+    
+}
+.topbar-left-two{
+    /* border: 2px solid green; */
+    width: 70%;
+}
+
+
+.topbar-right{
+  /* border: 4px solid red; */
+  margin: 0px;
+}
+.topbar-right-one{
+    /* border: 2px solid green; */
+    width: 30%;
+    margin-left: 80px;
+}
+.topbar-right-two{
+   /* border: 2px solid peru; */
+   width: 30%;
+   margin: 0px;
+
+}
+
+.topbar-left-one-clocktext{
+    display: none;
+}
+.topbar-left-two-socialtext{
+    display: none;
+}
+.topbar-right-one-emailcontact{
+    display: none;
+}
+.topbar-right-two-phoneno{
+    display: none;
+}
+
+
+.topbar-left-one-clock{
+    width:  100%;
+    margin-left: 20px;
+ 
+}
+.topbar-left-two-social{
+    width: 100%;
+   
+}
+.topbar-right-one-email{
+    width:  100%;
+    
+}
+.topbar-right-two-phone{
+    width:  100%;
+
+}
+
+
+
+/* TOPBAR ENDS HERE */
+
+    label{
+        display: block;
+        cursor: pointer;
+    }
+
+    .logo{
+        float: left;
+        margin: 0px;
+        height: 65px;
+    
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+     
+    }
+
+    .menu{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a{
+        display: block;
+        border-bottom: 1px solid white;
+        margin: 1px;
+        background-color: blue;
+        color: white;
+    }
+    #toggle:checked + .menu{
+        display: block; 
+    }
+
+/* NAVIGATION ENDS HERE */
+.slider{
+  margin-top: 360px;
+}
+
+.principal h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 750px;
+}
+.principal p{
+    font-size: 10px;
+    letter-spacing: 3px;
+
+}
+
+/* BANNER SLIDE  HERE */
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 30s infinite;
+    }
+    .load{
+        animation: slide 2s;
+    }
+    .content{
+        color: white;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        }
+        .principal{
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        text-align: center;
+        letter-spacing: 5px;
+        
+        }
+        .principal h1{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .principal p{
+            font-size: 12px;
+        
+        }
+        .principal span{
+            color: white;
+            font-size: 25px;
+        }
+        
+
+/* **********WELCOME SECTION */
+.welcome{
+
+    /* border: 2px solid red; */
+    width: 100%;
+    position: relative;
+    top: 330px;
+    flex: none;
+
+}
+.welcome-main{
+ 
+ margin: 0px;
+    flex: none;
+
+}
+
+.welcome-top{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    text-align: center;
+}
+.welcome-top h1{
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.welcome-top p{
+    line-height: 1.5rem;
+    color: lightslategray;
+    font-size: 13px;
+ 
+}
+.welcome-bottom{
+    /* border: 2px solid green; */
+    display: block;
+}
+.welcome-bottom-ourchurch{
+    /* border: 2px solid black; */
+    width: 80%;
+    display: block;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+    flex: none;
+    margin: 40px 20px 0px 20px;
+   
+    }
+.welcome-bottom-history{
+        /* border:  1px solid black; */
+        width: 80%;
+        display: block;
+        box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+       flex: none;
+       margin: 90px 20px 0px 20px;
+}
+ .welcome-bottom-sermons{
+        /* border: 1px solid black; */
+        width: 80%;
+        box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+        flex: none;
+        margin: 90px 20px 0px 20px;
+}
+.ourchurchimg{
+    border: 2px solid red;
+    border-radius: 10px;
+    display: block;
+    }
+    .ourchurchtext{
+        /* border: 2px solid blue; */
+     height: 35vh;
+      width: 100%;
+      display: block;
+    }
+
+    .ourhistoryimg{
+        border: 2px solid red;
+        display: block;
+        border-radius: 10px;
+    }
+    .ourhistorytext{
+        /* border: 2px solid blue; */
+        height: 35vh;
+      margin-top: 10px;
+    }
+    
+    .oursermonsimg{
+        border: 2px solid red;
+        display: block;
+        border-radius: 10px;
+    }
+    
+    .oursermonstext{
+        /* border: 2px solid blue; */
+        height: 35vh;
+      margin-top: 10px;
+    }
+
+
+
+    .welcome-bottom h1{
+        font-size: 16px;
+    }
+    .welcome-bottom h1:hover{
+        color: blue;
+        transition-delay:1s ;
+      
+    }
+    
+    .welcome-bottom p{
+        font-size: 10px;
+        font-weight: lighter;
+        line-height: 1.2rem;
+        padding-top: 10px;
+        color: grey;
+    }
+    .welcome-bottom a{
+      text-decoration: none;
+     }
+      .welcome-bottom button{
+       width: 80px;
+       padding:6px 0px;
+       margin-top: 10px;
+       font-size: 10px;
+       background-color: white;
+       color: blue;
+       transition-delay:1s ;
+       cursor: pointer;
+       border: none;
+       outline: none;
+      }       
+    .welcome-bottom button:hover{
+       width: 80px;
+       padding:6px 0px;
+       font-size: 12px;
+       color: white;
+       background-color: blue;
+       border: none;
+       outline: none;
+      }    
+
+
+/* **********WELCOME SECTION ENDS HERE */
+
+/* -----------PLACE ------------------*/
+.place-slider{
+    margin-top: 1490px;
+  }
+.place-slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    animation: slide 30s infinite;
+}
+.place-load{
+    animation: slide 2s;
+}
+.place-content{
+    color: red;
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.place-principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    text-align: center;
+    letter-spacing: 5px;
+    border: 2px solid red;
+
+}
+.place-principal h1{
+    font-size: 8px;
+    margin-bottom: 20px;
+    color: red;
+    width: 100%;
+}
+.place-principal button{
+    color: blue;
+    font-size: 12px;
+    background-color: white;
+    color: red;
+    width: 150px;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.place-principal button:hover{
+    color: white;
+    font-size: 8px;
+    background-color: red;
+    width: 150px;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.place-principal p{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+}
+.place-principal h4{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid red;
+    width: 100%;
+
+}
+@keyframes slide{
+
+0%{
+    background-image: url("../images/image3.png");
+}
+
+20%{
+    background-image: url("../images/image3.png");
+}
+20.01%{
+    background-image: url("../images/image3.png");
+}
+
+40%{
+    background-image: url("../images/image3.png");
+}
+40.01%{
+    background-image: url("../images/image3.png");
+}
+
+60%{
+    background-image: url("../images/image3.png");
+}
+60.01%{
+    background-image: url("../images/image3.png");
+}
+
+80%{
+    background-image: url("../images/image3.png");
+}
+80.01%{
+    background-image: url("../images/image3.png");
+}
+
+100%{
+    background-image: url("../images/image3.png");
+}
+
+}
+
+
+/* -----------PLACE  ENDS HERE------------------*/
+
+/* -------------SERMON--------- */
+
+
+
+
+
+
+/* -------------SERMON ENDS HERE--------- */
+}
