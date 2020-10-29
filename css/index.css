@@ -581,10 +581,21 @@ border: 2px solid red;
 padding-top: 20px;
 
 }
+.icon a{
+    text-decoration: none;
+
+}
+.icon a:hover{
+    text-decoration: none;
+    color: blue;
+    
+    
+}
 .icon svg{
     width: 16px;
     margin-right: 10px;
 }
+
 
 .sermon-bottom h1{
     font-size: 16px;
@@ -1138,7 +1149,45 @@ margin: 0px;
       
     }
     
+    .calender{
+        width: 25%;
+        height: 60px;
+        box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+        text-align: center;
+       color: black;
+       background-color: white;
+        position: relative;
+        left: 20px;
+        top: -55px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .calender:hover{
+        position: relative;
+        left: 20px;
+        top: -85px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+    }
+    .icon{
+    border: 2px solid red;
+    padding-top: 20px;
     
+    }
+    .icon a{
+        text-decoration: none;
+    
+    }
+    .icon a:hover{
+      
+        
+    }
+    .icon svg{
+        width: 16px;
+        margin-right: 10px;
+    }
   
 
 
