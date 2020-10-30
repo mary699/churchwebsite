@@ -728,6 +728,89 @@ padding-top: 20px;
 
 /* ----------EVENTS ENDS HERE------------------*/
 
+/*-------------EVENTEXTRA  */
+
+.eventextra-main{
+border: 2px solid red;
+height: 100vh;
+display: block;
+}
+.eventextra-first{
+    margin-top: 20px;
+    border: 2px solid blue;
+    height: 30vh;
+    display: flex;
+}
+.eventextra-second{
+    border: 2px solid black;
+    height: 30vh;
+    margin-top: 5px;
+    display: flex;
+}
+
+.eventextra-third{
+    border: 2px solid red;
+    height: 30vh;
+    margin-top: 5px;
+    display: flex;
+}
+.tab-img{
+    border: 2px solid black;
+   flex: 2;
+}
+.tab-text{
+    border: 2px solid red;
+    flex: 2;
+}
+.tab-button{
+    border: 2px solid blue;
+    flex: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------EVENTEXTRA ENDS HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1359,11 +1442,7 @@ margin: 0px;
     top: 50%;
 
 }
-/* .event-principal h1{
-    font-size: 15px;
-    margin-bottom: 20px;
-    color: red;
-} */
+
 
 .event-principal p{
     font-size: 10px;
@@ -1420,6 +1499,14 @@ margin: 0px;
 
 /* ----------EVENTS ENDS HERE------------------*/
 
+/*-------------EVENTEXTRA  */
+
+
+
+
+
+
+/* -------------EVENTEXTRA ENDS HERE */
 
 
 
