@@ -637,6 +637,115 @@ padding-top: 20px;
 
 /* -------------SERMON ENDS HERE--------- */
 
+/* -----------EVENTS------------------*/
+
+
+.event-slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 30vh;
+    animation: slide 30s infinite;
+}
+.event-load{
+    animation: slide 2s;
+}
+.event-content{
+    color: red;
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.event-principal{
+    left: 38%;
+    top: 445%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+.event-principal h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.event-principal p{
+    font-size: 14px;
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+}
+.event-principal h1{
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+
+}
+@keyframes slide{
+
+0%{
+    background-image: url("../images/image5.png");
+}
+
+20%{
+    background-image: url("../images/image5.png");
+}
+20.01%{
+    background-image: url("../images/image5.png");
+}
+
+40%{
+    background-image: url("../images/image5.png");
+}
+40.01%{
+    background-image: url("../images/image5.png");
+}
+
+60%{
+    background-image: url("../images/image5.png");
+}
+60.01%{
+    background-image: url("../images/image5.png");
+}
+
+80%{
+    background-image: url("../images/image5.png");
+}
+80.01%{
+    background-image: url("../images/image5.png");
+}
+
+100%{
+    background-image: url("../images/image5.png");
+}
+
+}
+
+/* ----------EVENTS ENDS HERE------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1214,10 +1323,127 @@ margin: 0px;
     }
   
 
-
-
-
-
-
 /* -------------SERMON ENDS HERE--------- */
+
+
+/* -----------EVENTS------------------*/
+
+
+.event-slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 30vh;
+    animation: slide 30s infinite;
+    position: relative;
+    top: 1250px;
+  
+}
+.event-load{
+    animation: slide 2s;
+    
+}
+.event-content{
+    color: red;
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.event-principal{
+  
+    transform: translate(-50%,-50%);
+    text-align: center;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 100%;
+
+}
+/* .event-principal h1{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: red;
+} */
+
+.event-principal p{
+    font-size: 14px;
+    text-align: left;
+    color: blue;
+    font-weight: bolder;
+}
+.event-principal h1{
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+
+}
+@keyframes slide{
+
+0%{
+    background-image: url("../images/image5.png");
+}
+
+20%{
+    background-image: url("../images/image5.png");
+}
+20.01%{
+    background-image: url("../images/image5.png");
+}
+
+40%{
+    background-image: url("../images/image5.png");
+}
+40.01%{
+    background-image: url("../images/image5.png");
+}
+
+60%{
+    background-image: url("../images/image5.png");
+}
+60.01%{
+    background-image: url("../images/image5.png");
+}
+
+80%{
+    background-image: url("../images/image5.png");
+}
+80.01%{
+    background-image: url("../images/image5.png");
+}
+
+100%{
+    background-image: url("../images/image5.png");
+}
+
+}
+
+/* ----------EVENTS ENDS HERE------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
