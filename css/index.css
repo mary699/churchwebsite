@@ -1335,10 +1335,10 @@ margin: 0px;
     background-position: center;
     background-attachment: fixed;
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     animation: slide 30s infinite;
     position: relative;
-    top: 1250px;
+    top: 1750px;
   
 }
 .event-load{
@@ -1348,16 +1348,15 @@ margin: 0px;
 .event-content{
     color: red;
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     background-color: rgba(0, 0, 0, 0.2);
 }
 .event-principal{
   
     transform: translate(-50%,-50%);
     text-align: center;
-    letter-spacing: 5px;
     position: absolute;
-    top: 100%;
+    top: 50%;
 
 }
 /* .event-principal h1{
@@ -1367,9 +1366,9 @@ margin: 0px;
 } */
 
 .event-principal p{
-    font-size: 14px;
+    font-size: 10px;
     text-align: left;
-    color: blue;
+    color: white;
     font-weight: bolder;
 }
 .event-principal h1{
