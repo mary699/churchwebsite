@@ -757,15 +757,38 @@ display: block;
 .tab-img{
     border: 2px solid black;
    flex: 2;
+   margin-left: 70px;
+
 }
 .tab-text{
     border: 2px solid red;
     flex: 2;
+  
+}
+.tab-text h1{
+    font-size: 15px;
+    color: blue;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.tab-text p{
+    font-size: 12px;
+line-height: 1.2rem;
+    padding-left: 20px;
+    border: 2px solid red;
+    padding-top: 5px;
 }
 .tab-button{
     border: 2px solid blue;
     flex: 2;
+ 
 }
+.tab-button button{
+  border: 2px solid green;
+align-content: center;
+ justify-content: center;
+}
+
 
 
 
@@ -1502,7 +1525,74 @@ margin: 0px;
 /*-------------EVENTEXTRA  */
 
 
-
+.eventextra-main{
+    border: 2px solid red;
+    display: block;
+    position: relative;
+    top: 1800px;
+  
+    }
+    .eventextra-first{
+        margin: 0px;
+        border: 5px solid blue;
+        height: 50vh;
+        display: block;
+    }
+    .eventextra-second{
+        margin: 0px;
+        border: 5px solid black;
+        height: 50vh;
+        display: block;
+        
+    }
+    
+    .eventextra-third{
+        border: 5px solid red;
+        height: 50vh;
+        margin-top: 5px;
+     display: block;
+    }
+    .tab-img{
+        margin: 0px;
+        padding: 0px;
+    }
+    .tab-img img{
+        border: 2px solid black;
+         margin: 0px;
+         padding: 0px;
+         display: block;
+          height: 150px;
+ 
+    }
+    .tab-text{
+        border: 2px solid red;
+        flex: 2;
+      
+    }
+    .tab-text h1{
+        font-size: 15px;
+        color: blue;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    .tab-text p{
+        font-size: 12px;
+        line-height: 1.2rem;
+        padding-left: 20px;
+        border: 2px solid red;
+        padding-top: 15px;
+    }
+    .tab-button{
+        border: 2px solid blue;
+        flex: 2;
+     
+    }
+    .tab-button button{
+      border: 2px solid green;
+      align-content: center;
+      justify-content: center;
+    }
+    
 
 
 
