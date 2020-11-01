@@ -797,12 +797,19 @@ display: block;
     margin-top: 15px;
 }
 .gallery-firstrow{
-border: 2px solid red;
 height: 40vh;
+display: flex;
+
 }
+
 .gallery-secondrow{
-border: 2px solid green;
 height: 40vh;
+display: flex;
+
+}
+.gallery img{
+    height: 40vh;
+    width: 179px;
 }
 
 /* ------------GALLERY STARTS ENDS HERE */
