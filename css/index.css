@@ -1707,7 +1707,7 @@ margin: 0px;
         display: block;
         position: relative;
         top: 2000px;
-        border: none;
+        
 
 }
 .gallery-firstrow{
@@ -1729,9 +1729,123 @@ margin: 0px;
 
 /* ------------GALLERY STARTS ENDS HERE */
 
+/* -------------LATEST NEWS */
+.latest{
+
+    /* border: 2px solid red; */
+    width: 100%;
+    position: relative;
+    top: 2100x;
+    flex: none;
+
+}
+.latest-main{
+ 
+ margin: 0px;
+    flex: none;
+
+}
+
+.latest-top{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    text-align: center;
+}
+.latest-top h1{
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.latest-top p{
+    line-height: 1.5rem;
+    color: lightslategray;
+    font-size: 13px;
+ 
+}
+.latest-bottom{
+    /* border: 2px solid green; */
+    display: block;
+}
+.latest-bottom-hischurch{
+    /* border: 2px solid black; */
+    width: 80%;
+    display: block;
+    box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+    flex: none;
+    margin: 40px 20px 0px 20px;
+   
+    }
+.latest-bottom-catholic{
+        /* border:  1px solid black; */
+        width: 80%;
+        display: block;
+        box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+       flex: none;
+       margin: 90px 20px 0px 20px;
+}
+ .latest-bottom-resign{
+        /* border: 1px solid black; */
+        width: 80%;
+        box-shadow: 2px 2px 12px rgba(233, 227, 227, 0.2);
+        flex: none;
+        margin: 90px 20px 0px 20px;
+}
+.hischurchimg{
+
+    border-radius: 10px;
+    display: block;
+    }
+    .hischurchtext{
+        /* border: 2px solid blue; */
+     height: 35vh;
+      width: 100%;
+      display: block;
+    }
+
+    .catholicimg{
+      
+        display: block;
+        border-radius: 10px;
+    }
+    .catholictext{
+        /* border: 2px solid blue; */
+        height: 35vh;
+      margin-top: 10px;
+    }
+    
+    .resignimg{
+        
+        display: block;
+        border-radius: 10px;
+    }
+    
+    .resigntext{
+        /* border: 2px solid blue; */
+        height: 35vh;
+      margin-top: 10px;
+    }
 
 
 
+    .latest-bottom h1{
+        font-size: 16px;
+    }
+    .latest-bottom h1:hover{
+        color: blue;
+        transition-delay:1s ;
+      
+    }
+    
+    .latest-bottom p{
+        font-size: 10px;
+        font-weight: lighter;
+        line-height: 1.2rem;
+        padding-top: 10px;
+        color: grey;
+    }
+
+
+
+/* -------------LATEST NEWS  ENDS HERE*/ 
 
 
 
