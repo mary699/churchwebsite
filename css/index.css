@@ -761,7 +761,7 @@ display: block;
 
 }
 .tab-text{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex: 2;
     margin-right: 120px;
   
@@ -776,12 +776,12 @@ display: block;
     font-size: 12px;
  line-height: 1.2rem;
     padding-left: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-top: 5px;
 }
 .icons{
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 30px;
 }
 
@@ -791,7 +791,7 @@ display: block;
 /* ------------GALLERY STARTS HERE */
 
 .gallery{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 80vh;
     display: block;
     margin-top: 15px;
